@@ -1,0 +1,98 @@
+═══════════════════════════════════════════════════════════════
+  INSTRUCCIONES RÁPIDAS - VR FOREST PARA META QUEST
+═══════════════════════════════════════════════════════════════
+
+¡HOLA! Aquí están los pasos SUPER SIMPLES para hacer funcionar tu bosque VR:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 1: VERIFICAR EL PROYECTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre Unity
+2. En el menú superior, haz clic en: VR Setup → Check Project Issues
+3. Si aparecen problemas, sigue las instrucciones que te muestre
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 2: ARREGLAR MATERIALES (si se ven rosados/magenta)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En el menú: VR Setup → Fix Materials and Shaders
+2. Espera a que termine (aparecerá un mensaje)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 3: CONFIGURAR PARA META QUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En el menú: VR Setup → Configure Project for Meta Quest
+2. Lee el mensaje que aparece
+3. IMPORTANTE: Después debes hacer esto manualmente:
+   - Ve a: Edit → Project Settings
+   - En el panel izquierdo, busca: XR Plug-in Management
+   - Haz clic en la pestaña "Android" (el ícono de Android)
+   - Marca la casilla "Oculus"
+   - Cierra la ventana
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 4: CREAR LA ESCENA DEL BOSQUE VR
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. En el menú: VR Setup → Create VR Forest Scene
+2. Espera unos segundos (se está creando todo automáticamente)
+3. Aparecerá un mensaje de éxito
+4. ¡La escena está lista!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 5: PROBAR EN UNITY (OPCIONAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Presiona el botón PLAY (triángulo arriba)
+2. Usa el mouse y teclado para moverte:
+   - Clic derecho + mover mouse = mirar alrededor
+   - WASD = moverse
+   - Q/E = subir/bajar
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PASO 6: COMPILAR PARA META QUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Conecta tu Meta Quest con el cable USB a la computadora
+2. En los lentes, acepta el permiso de USB debugging
+3. En Unity, ve a: File → Build Settings
+4. Asegúrate que "Android" esté seleccionado (si no, selecciónalo y haz clic en "Switch Platform")
+5. Haz clic en "Build And Run"
+6. Elige dónde guardar el archivo APK
+7. Espera a que compile y se instale automáticamente en los lentes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+¿QUÉ SE ARREGLÓ?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✓ Terreno con colisiones - Ya no te caes al vacío
+✓ Límites invisibles - Te mantienen dentro del bosque
+✓ Sistema VR completo - Funciona con Meta Quest 2 y 3
+✓ Locomoción continua - Puedes caminar libremente
+✓ Árboles y rocas con colisiones - No atraviesas objetos
+✓ Iluminación y niebla - Se ve bonito y atmosférico
+✓ Respawn automático - Si te caes, vuelves al inicio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTROLES EN META QUEST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Joystick IZQUIERDO = Caminar por el bosque
+Joystick DERECHO = Girar la vista
+
+¡Eso es todo! Ahora puedes caminar libremente por el bosque.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+¿PROBLEMAS?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Si algo no funciona:
+1. Usa: VR Setup → Check Project Issues
+2. Lee los mensajes de error en la consola de Unity (abajo)
+3. Revisa el archivo README_VR_SETUP.md para más detalles
+
+═══════════════════════════════════════════════════════════════
+
+¡DISFRUTA TU BOSQUE EN VR! 🌲🥽✨
